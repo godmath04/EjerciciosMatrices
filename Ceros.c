@@ -7,7 +7,6 @@
 Entregue la URL a su repositorio de Github.*/
 
 #include <stdio.h>
-#include <string.h>
 #include <time.h>
 
 int main()
@@ -33,6 +32,7 @@ int main()
         }
         printf("\n");
     }
+    printf("\n");
 
     // Cambio de valor de la diagonal a 1
     for (int i = 0; i < filas && i < columnas; i++)
